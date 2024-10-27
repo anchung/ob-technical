@@ -7,6 +7,9 @@ A set of generic interfaces that describe the most common forms of data structur
 
 ### Collection
 ```mermaid
+---
+Collection
+---
 classDiagram
 Collection <|-- List
 Collection <|-- Set
@@ -21,10 +24,10 @@ Set <|-- SortedSet
 Set .. HashSet
 SortedSet .. TreeSet
 
-<<interface>> Collection
-<<interface>> List
-<<interface>> Set
-<<interface>> SortedSet
+<<Interface>> Collection
+<<Interface>> List
+<<Interface>> Set
+<<Interface>> SortedSet
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
 > `List` is a type of `Collection` in which elements are **ordered** (but may contain duplicates)
