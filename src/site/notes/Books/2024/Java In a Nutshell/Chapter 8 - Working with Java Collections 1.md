@@ -6,7 +6,27 @@
 A set of generic interfaces that describe the most common forms of data structure.
 
 ### Collection
+```mermaid
+classDiagram
 
+Collection <|-- List
+Collection <|-- Set
+
+List .. AbstractList
+
+AbstractList <|-- LinkedList
+AbstractList <|-- ArrayList
+AbstractList <|-- Vector
+
+Set <|-- SortedSet
+Set .. HashSet
+SortedSet .. TreeSet
+
+<<interface>> Collection
+<<interface>> List
+<<interface>> Set
+<<interface>> SortedSet
+```
 > `Set` is  a type of `Collection` with **no duplicate**
 > `List` is a type of `Collection` in which elements are **ordered** (but may contain duplicates)
 ### Map
