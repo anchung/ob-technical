@@ -12,15 +12,7 @@ classDiagram
 Collection <|-- List
 Collection <|-- Set
 
-List .. AbstractList
 
-AbstractList <|-- LinkedList
-AbstractList <|-- ArrayList
-AbstractList <|-- Vector
-
-Set <|-- SortedSet
-Set .. HashSet
-SortedSet .. TreeSet
 ```
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
