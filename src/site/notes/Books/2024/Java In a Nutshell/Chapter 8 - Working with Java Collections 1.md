@@ -7,8 +7,10 @@ A set of generic interfaces that describe the most common forms of data structur
 
 ### Collection
 ```mermaid
-graph LR;
-A --> B
+classDiagram
+    Customer "1" --> "*" Ticket
+    Student "1" --> "1..*" Course
+    Galaxy --> "many" Star : Contains
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
 > `List` is a type of `Collection` in which elements are **ordered** (but may contain duplicates)
