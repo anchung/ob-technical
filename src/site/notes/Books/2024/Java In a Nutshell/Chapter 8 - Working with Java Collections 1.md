@@ -7,27 +7,20 @@ A set of generic interfaces that describe the most common forms of data structur
 
 ### Collection
 ```mermaid
----
-Collection
----
-classDiagram
-Collection <|-- List
-Collection <|-- Set
-
-List .. AbstractList
-
-AbstractList <|-- LinkedList
-AbstractList <|-- ArrayList
-AbstractList <|-- Vector
-
-Set <|-- SortedSet
-Set .. HashSet
-SortedSet .. TreeSet
-
-<<Interface>> Collection
-<<Interface>> List
-<<Interface>> Set
-<<Interface>> SortedSet
+classDiagram 
+class Shape{ 
+    <<interface>> 
+    noOfVertices 
+    draw() 
+} 
+class Color{ 
+   <<enumeration>> 
+   RED 
+   BLUE 
+   GREEN 
+   WHITE 
+   BLACK 
+}
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
 > `List` is a type of `Collection` in which elements are **ordered** (but may contain duplicates)
