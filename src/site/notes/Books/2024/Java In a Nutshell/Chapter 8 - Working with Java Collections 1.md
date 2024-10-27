@@ -9,7 +9,6 @@ A set of generic interfaces that describe the most common forms of data structur
 ```mermaid
 classDiagram
 class Shape{
-    <<interface>>
     noOfVertices
     draw()
 }
