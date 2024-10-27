@@ -13,7 +13,6 @@ class Shape{
     draw()
 }
 class Color{
-    <<enumeration>>
     RED
     BLUE
     GREEN
