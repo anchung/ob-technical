@@ -9,7 +9,7 @@ A set of generic interfaces that describe the most common forms of data structur
 ```mermaid
 classDiagram
 classC *-- classD
-classG `<`-- classH
+classG `&lt;`-- classH
 ```
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
