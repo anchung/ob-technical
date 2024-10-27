@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Lance's Technical Repo/","title":"Home","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/lance-s-technical-repo/","title":"Home","tags":["gardenEntry"]}
 ---
 
 ## Lance's Technical Repo
