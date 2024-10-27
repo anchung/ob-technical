@@ -1,9 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Notes/2024/Elasticsearch/","title":"Elasticsearch","tags":["quick_note","Data"]}
+{"dg-publish":true,"permalink":"/notes/2024/elasticsearch/","title":"Elasticsearch","tags":["quick_note","Data"]}
 ---
 
-> ![](https://www.youtube.com/watch?v=PuZvF2EyfBM&t=190s))
-
+![](https://www.youtube.com/watch?v=PuZvF2EyfBM&t=190s)
 ## Terms
 - Index
   > An index contains multiple documents. Conceptually, it can be thought of as "**Table**" in RDBMS world.
