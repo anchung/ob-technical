@@ -8,17 +8,7 @@ A set of generic interfaces that describe the most common forms of data structur
 ### Collection
 ```mermaid
 classDiagram
-class Shape{
-    noOfVertices
-    draw()
-}
-class Color{
-    RED
-    BLUE
-    GREEN
-    WHITE
-    BLACK
-}
+classA <|-- classB
 ```
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
