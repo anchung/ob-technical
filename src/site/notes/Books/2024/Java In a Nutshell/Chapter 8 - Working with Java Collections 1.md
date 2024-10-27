@@ -8,7 +8,7 @@ A set of generic interfaces that describe the most common forms of data structur
 ### Collection
 ```mermaid
 classDiagram
-	classA <|-- classB : implements
+	class Triangle
 ```
 ```
 > `Set` is  a type of `Collection` with **no duplicate**
